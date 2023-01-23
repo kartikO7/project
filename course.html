@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/project3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    
+    <title>MSIT website-project</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css ">
+    
+
+<body>
+<div class="sub-header">
+<div class="overlay">
+
+
+
+    <nav>
+        <a href="index.html"><img src="images/msit.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT </a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1 class="coures1">Our Courses</h1>
+
+<!-------------------------Courses--------------------------->
+
+
+<div class="course">
+    <h1>Courses We Provide</h1>
+    <p> The institute provides Bachelor of Technology in CSE, IT, ECE and EEE streams.</p>
+    
+<div class="row">
+    <div class="course-col">
+        <h3>Admission</h3>
+        <p>Bachelor of Technology in Computer Science and Engineering,Information technology, 
+        Electronics and Communication Engineering and Electrical and Electronics Engineering streams</p>
+    </div>
+    <div class="course-col">
+        <h3>Degree</h3>
+        <p>Bachelor of Technology in Computer Science and Engineering,Information technology, 
+        Electronics and Communication Engineering and Electrical and Electronics Engineering streams</p>
+    </div>
+    <div class="course-col">
+        <h3>Placements</h3>
+        <p>Bachelor of Technology in Computer Science and Engineering,Information technology, 
+        Electronics and Communication Engineering and Electrical and Electronics Engineering streams</p>
+    </div>
+   </div>
+</div>
+
+
+
+<!------------------faclities-------------------------------->
+
+<div class="facilities">
+    <h1>Our facilities</h1>
+    <p>Laboratories,Library ,Hostel</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.jpg">
+            <h3> Spacious Library</h3>
+        <p>Library has also a Research Wing for scholars where scholars are getting special
+        reference material and rare collections of manuscripts for their research work
+        on community.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/Laboratories.jpg">
+            <h3>Fully Functional Laboratories</h3>
+            <p>CSE department labs are well equipped with good configuration computers and softwares,ADA/DBMS Lab,
+               Data Structures / Web Engg. Lab,CN/JAVA PROGRAMMING LAB.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/hostel.jpg">
+            <h3>BOYS And GIRLS Hostel</h3>
+            <p>The Maharaja Mahendra Pratap Hostel provides accommodation to around 
+            200 boys and 100 girls in a spacious and elegant four-storeyed building with
+            all connected facilities. Hygienic and nutritious food is provided at a reasonable cost</p>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+<!------------------------- footer------------------------------>
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>To become one of the most admired centers of academic excellence in the field
+     of Engineering & Technology for all-round professional development of students to 
+     enable them to meet the growing technological needs of the country.
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    
+</section>
+
+
+
+
+
+
+
+
+<!----------------JAVAScript for toggle Menu----------------------->
+<script>
+
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
+
+
+
